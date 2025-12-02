@@ -21,7 +21,7 @@ form.addEventListener("submit", function (e) {
         document.getElementById("nameError").textContent = "Name is required";
         isValid = false;
     }
-
+Change to Check AppScan
     // Email validation
     const email = document.getElementById("email").value.trim();
     if (email === "") {
